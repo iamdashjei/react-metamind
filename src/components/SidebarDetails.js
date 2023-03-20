@@ -7,7 +7,7 @@ import * as RiIcons from "react-icons/ri";
 export const SidebarDetails = [
     {
         title: "Users",
-        path: "/",
+        path: "/users",
         icon: <AiIcons.AiFillHome />,
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -22,12 +22,7 @@ export const SidebarDetails = [
             title: "Create User",
             path: "/create-user",
             icon: <IoIcons.IoIosPaper />,
-          },
-          {
-            title: "Delete User",
-            path: "/delete-user",
-            icon: <IoIcons.IoIosPaper />,
-          },
+          }
         ],
     },
 ];
